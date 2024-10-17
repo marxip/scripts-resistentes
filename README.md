@@ -1,4 +1,4 @@
-# scripts-resistentes
+### scripts-resistentes
 
 Scripts simplisimos, para tareas muy especificas, que probaron ser útiles y eficaces en su aplicación a través del tiempo.
 
@@ -6,7 +6,7 @@ Este repositorio contiene varios scripts en Batch y Python que automatizan difer
 
 ---
 
-## 1. Ancient Architect Folder Master (Batch Script)
+## 1. Folder Master (Batch Script)
 
 ### Propósito
 Este script facilita la creación rápida de carpetas basadas en una lista de nombres pegada por el usuario. Está diseñado para ser utilizado cuando se tienen nombres de carpetas en un archivo externo, como una hoja de Excel.
@@ -33,9 +33,10 @@ Este script organiza archivos PDF al moverlos a carpetas que coinciden con su no
 
 ---
 
-## 3.  FINAL BATTLE (Batch Script) Script de Movimiento de Archivos.
+## 3. FINAL BATTLE (Batch Script) 
 
 ### Propósito
+Script de Movimiento de Archivos.
 Este script mueve todos los archivos con extensiones `.jpg` o `.pdf` desde subcarpetas dentro del directorio actual al directorio principal.
 
 ### Uso
@@ -46,9 +47,10 @@ Este script mueve todos los archivos con extensiones `.jpg` o `.pdf` desde subca
 
 ---
 
-## 4. Class struggler (Batch Script) Organización por Extensiones
+## 4. Class struggler (Batch Script) 
 
 ### Propósito
+Organización por Extensiones.
 Este script organiza archivos de diferentes tipos (PDF, TXT, XLS, ZIP) en carpetas separadas dentro del directorio actual.
 
 ### Uso
@@ -59,10 +61,11 @@ Este script organiza archivos de diferentes tipos (PDF, TXT, XLS, ZIP) en carpet
 
 ---
 
-## 5. comparadorTXT.py (Python Script) Comparador de archivos TXT de control linea por linea 
+## 5. comparadorTXT.py (Python Script)
 
 ### Propósito y caso de uso
-Este script es util para comparar dos archivos TXT de facturación linea por linea (mes actual y mes anterior o acumulado de meses anteriores). Generará como resultado un archivo con las lineas no registradas en el mes anterior. Es para evitar facturar 2 veces algo.
+Comparador de archivos TXT de control linea por linea. 
+Este script es util para comparar dos archivos de facturación (mes actual y mes anterior o acumulado de meses anteriores). Generará como resultado un archivo con las lineas no registradas en el mes anterior. Es para evitar facturar 2 veces algo.
 
 ### Uso
 1. Asegúrate de tener dos archivos de texto: uno con lo facturado el mes anterior y otro con lo del mes actual.
